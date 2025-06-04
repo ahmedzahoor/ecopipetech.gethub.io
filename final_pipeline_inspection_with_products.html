@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pipeline Inspections Co.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      color: #1e3a8a;
+      font-size: 24px;
+    }
+    header img {
+      width: 120px;
+      height: auto;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #1e3a8a;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: linear-gradient(to right, #1e3a8a, #2563eb);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background: #3b82f6;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h3 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 300px;
+    }
+    .card h4 {
+      margin-bottom: 10px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    footer {
+      background: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAIAQMAAAD3G7wHAAAAw1BMVEX5+Pjw8Pj6+HkPfmDfyfh59HD2wzZ73drz5ozk2cxcXT23zz3PY7xuX9G4+w+gnV9V7bYWleG2Xlq0gmthpy6brHcJlSy5OB+cWRq8hF+vgqbCm+M1HTblTbYsJy+2u7FQNmRztbHZDQ+9f7Lbhjtz9J7fw2pxhxYvUBzTAL9oW0//kPwn3wIWy9e5or5WpGb7O7KJqEmR94KmVhzJUPxKp3iwv7u6bJdzsY8xpCTb4O28hpyg71WZ4n6lKj8x3j0uMM6fPj5YNHJlwF9xU92hu9GBZnX7H+agGBkDoJpy69lSSw5uHGH8YOdhwAAAAAXRSTlMAQOBZtRNoAAAAJcEhZcwAADsMAAA7DAcdvqR/dwhF5hms8iSxvsU/6+Xsyk7yfWzDPy5jJcZT40hP7HRhZyGfHpgF+9Uw3fYqgFjl5B0s6uCVTk8J2mj0hdDaHk+JLDhgFz9eFrnFL2I1g4WqvWml5OTlAoHlS1cZZh71KZ/JTjlCO3+HkLn+zz8yFrU4sqzjw/K7L09d7a36JkwVGyBpnxO9/Bpco48VYmhqr3Brh/ElLnm7Dwwp+kTpX5tM5NKqgsBhPps8kbOfZLgOGaR3d+Az+0reXLfWIa7GZ0W9os55L+wNRjdpVoxZb0tCu8XcDoMQr0gtZaxzNhcVgTg1F7VZ74gf6teEEhZ57DoqIgVlfcdq1aIE7gDpHxaFlQdzGMOdd1ObH0ekITjmEKxwry2d9py5JcxB2IA8wqSmPVAjBYB/RAxVeLtzOCTx3f27ldZ2g//p3IS5heQXLCREsKp/ygVw0OtBQzHiQzD1m7clDhMEjNTnzNIAAAAAAAAAAClw1lehwk1uaQFqNmnT0jw0Ulb5ihdVntV/s//Jhvx5R/jIZ8p5JpmGG+ml6zywbm/3e/18F19gwzERIFajK2lCA4u3B6xIbLXAoG8wEajlb9dA7cQAAAFlElEQVR42iWY2ZKDIAyGPtHwSYQiwpHpSo9Vm2T9DQw3nC0lLUg9yoqmhPcoYwYwqTxLEmnKysGnQfVVzQqtoZPqXbrc3j79pWxRvcFkZv9yS1eRf7mnyyBVVzHkLO35vfxLeOEKhljDkNO+a4FfJlqALdxbaPbU02J3ft+fhpK6mQreAo0wD59VAwCAglqExAe1SgsZEqJH4v6F1lhpyc3AQ=="/>
+    <h1>Pipeline Inspections Co.</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Expert Pipeline Inspection Services</h2>
+    <p>Ensuring safety, efficiency, and compliance in your pipeline systems.</p>
+    <button class="btn">Get a Free Quote</button>
+  </section>
+
+  <section class="section" id="services">
+    <h3>Our Services</h3>
+    
+    <p style="text-align:center; max-width:700px; margin: 0 auto 30px auto;">
+      Our services ensure that your pipelines run smoothly, reliably, and safely. We provide industry-standard methods with modern tools and certified experts.
+    </p>
+    <div class="services">
+
+      <div class="card" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAEsCAIAAACQX1rBAAAEhUlEQVR4nO3VIQEAIADAMKB/PIogccRAfEtw97nPHQBQtX4HAMBPRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkGaEAKQZIQBpRghAmhECkPYA7XUFFrYdAa4AAAAASUVORK5CYII=" alt="Visual Inspection" style="width:100%; border-radius:10px; margin-bottom:10px;" /><h4>Visual Inspection</h4>
+        <p>Our team performs a thorough external check of your pipeline system to detect corrosion, surface cracks, and other visible flaws using HD video and drone technology.</p>
+      </div>
+      <div class="card" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAEsCAIAAACQX1rBAAAEhUlEQVR4nO3VIQEAIADAMKB/PCoQAkcMxLcEd593nwEAVet3AAD8ZIQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGkP+WkFCperD8MAAAAASUVORK5CYII=" alt="Ultrasonic Testing" style="width:100%; border-radius:10px; margin-bottom:10px;" /><h4>Ultrasonic Testing</h4>
+        <p>We utilize ultrasonic sound waves to penetrate pipeline walls and assess internal integrity without causing any damage — ideal for detecting hidden flaws and wall thinning.</p>
+      </div>
+      <div class="card" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAEsCAIAAACQX1rBAAAEhUlEQVR4nO3VIQEAIADAMKB/PCJQAkcMxLcEd5/n7gEAVet3AAD8ZIQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGlGCECaEQKQZoQApBkhAGkPumMFCbTlJvMAAAAASUVORK5CYII=" alt="Leak Detection" style="width:100%; border-radius:10px; margin-bottom:10px;" /><h4>Leak Detection</h4>
+        <p>Advanced acoustic sensors and gas tracer technologies help us quickly locate leaks, minimizing potential damage and environmental hazards.</p>
+      </div>
+    </div>
+  </section>
+
+  
+    <section class="section" id="about" style="background-color:#f0f8ff;">
+
+    <h3>Why Choose Us?</h3>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      With over 15 years in the field, our certified experts use cutting-edge technology to ensure your pipelines are up to code and safe for use. We prioritize safety, accuracy, and customer satisfaction.
+    </p>
+  </section>
+
+  
+<!-- Products Section -->
+<section class="section" style="background:#f9f9ff;">
+  <h3>Our Products</h3>
+  <p style="text-align:center; max-width:700px; margin: 0 auto 30px auto;">
+    Explore our range of cutting-edge tools and accessories used in pipeline inspection and maintenance.
+  </p>
+  <div class="services">
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200?text=Camera+Probe" alt="Camera Probe" style="width:100%; border-radius:10px; margin-bottom:10px;">
+      <h4>HD Camera Probe</h4>
+      <p>High-resolution, waterproof cameras for in-line visual inspections.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200?text=Ultrasonic+Device" alt="Ultrasonic Device" style="width:100%; border-radius:10px; margin-bottom:10px;">
+      <h4>Ultrasonic Testing Device</h4>
+      <p>Portable NDT equipment designed for field-level ultrasonic pipeline testing.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200?text=Leak+Detector" alt="Leak Detector" style="width:100%; border-radius:10px; margin-bottom:10px;">
+      <h4>Smart Leak Detector</h4>
+      <p>Highly sensitive acoustic and gas tracer devices for early leak detection.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="section" style="background:#eef6f7;">
+  <h3>What Our Clients Say</h3>
+  <div class="services">
+    <div class="card">
+      <p>"EcoPipe's team was incredibly professional and helped us identify pipeline issues before they became costly repairs. Highly recommended!"</p>
+      <strong>- Jamal B., Project Manager</strong>
+    </div>
+    <div class="card">
+      <p>"Their ultrasonic testing saved us weeks of troubleshooting. Reliable, accurate, and fast service."</p>
+      <strong>- Maria F., Plant Supervisor</strong>
+    </div>
+    <div class="card">
+      <p>"From inspection to reporting, everything was done efficiently and with great customer service."</p>
+      <strong>- Akbar K., Site Engineer</strong>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+    <h3>Contact Us</h3>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      We're here to answer your questions, provide consultations, or give you a free quote. Reach out via phone, email, or message us using the form below.
+    </p><br/>
+    <p>Email: <a href="mailto:info@ecopipe.com">info@ecopipe.com</a></p>
+    <p>Phone: <a href="tel:+923438200972">+923438200972</a></p>
+    <p>Address: M-8 Road, Turbat, Balochistan</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Pipeline Inspections Co. All rights reserved.
+  </footer>
+
+</body>
+</html>
